@@ -24,8 +24,9 @@ console.log(fib(7)); // 8 // не понял как это работает
 var a = "1";
 var b = "2*2";
 console.log("5:" + eval(a + b));
-// 6
+// 6 Ohjel
 var w = "hello";
 b = "world\0";
 console.log(b);
 console.log(w.substring(3) + b.length);
+//7
