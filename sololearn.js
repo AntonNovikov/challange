@@ -30,3 +30,16 @@ b = "world\0";
 console.log(b);
 console.log(w.substring(3) + b.length);
 //7
+let add = (x, y) => {
+  return x + y;
+};
+let sub = (x, y) => {
+  return x - y;
+};
+let calc = (x, y, fun) => {
+  return fun(x, y);
+};
+console.log("7:" + calc(9, -1, add));
+// 8 Polar Bear (Proud Antarcican)
+// I am 16 years and 5 months old
+console.log("8:" + prompt().match(/\d+/)); // 16 16,5 5 165
